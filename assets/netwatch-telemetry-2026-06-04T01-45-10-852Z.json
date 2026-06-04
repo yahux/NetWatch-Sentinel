@@ -1,0 +1,375 @@
+{
+  "exportedAt": "2026-06-04T01:45:10.851Z",
+  "session": {
+    "targetIp": "",
+    "serviceName": "",
+    "monitoringMode": "silent_alert",
+    "dataSourceMode": "simulated",
+    "startedAt": "2026-06-04T01:45:10.851Z",
+    "isRecording": false
+  },
+  "connectionStatus": "connected",
+  "connectionMessage": "Demo traffic stream active",
+  "threatGauge": {
+    "tier": "caution",
+    "label": "Caution",
+    "ratio": 0.16666666666666666,
+    "intruderCount": 3,
+    "trustedCount": 15
+  },
+  "packetThroughput": 704,
+  "backgroundPacketCount": 32,
+  "nodeCount": 18,
+  "graph": {
+    "nodeCount": 19,
+    "linkCount": 17,
+    "intruderNodes": 3,
+    "trustedNodes": 15
+  },
+  "trafficLogs": [
+    {
+      "id": "e5ca121a-138e-4ca2-b8a5-1ce7fe73a02d",
+      "sourceIp": "172.16.0.3",
+      "destIp": "10.0.0.15",
+      "protocol": "UDP",
+      "status": "threat",
+      "timestamp": "2026-06-04T01:45:06.846Z",
+      "isThreat": true,
+      "signatures": [
+        "flagged_threat",
+        "threat_status",
+        "high_threat_level",
+        "unexpected_source_port:22",
+        "unexpected_dest_port:3389"
+      ],
+      "sourcePort": 22,
+      "destPort": 3389
+    },
+    {
+      "id": "aab51ee3-ebf1-4b64-88ee-6f35160f83b8",
+      "sourceIp": "76.252.177.175",
+      "destIp": "127.0.0.1",
+      "protocol": "UDP",
+      "status": "blocked",
+      "timestamp": "2026-06-04T01:45:06.138Z",
+      "isThreat": false,
+      "signatures": [
+        "blocked_connection",
+        "unauthorized_external_access"
+      ],
+      "sourcePort": 5353,
+      "destPort": 80
+    },
+    {
+      "id": "f1f878af-cde5-4df0-9aeb-d0cc74ad54f4",
+      "sourceIp": "172.16.0.3",
+      "destIp": "127.0.0.1",
+      "protocol": "UDP",
+      "status": "blocked",
+      "timestamp": "2026-06-04T01:45:04.041Z",
+      "isThreat": false,
+      "signatures": [
+        "blocked_connection"
+      ],
+      "sourcePort": 80,
+      "destPort": 80
+    },
+    {
+      "id": "9c9acfb1-3b5c-41f6-b4de-645136e9853e",
+      "sourceIp": "220.52.94.41",
+      "destIp": "127.0.0.1",
+      "protocol": "UDP",
+      "status": "allowed",
+      "timestamp": "2026-06-04T01:45:00.541Z",
+      "isThreat": false,
+      "signatures": [
+        "unauthorized_external_access"
+      ],
+      "sourcePort": 80,
+      "destPort": 443
+    },
+    {
+      "id": "26a04fa6-9f00-4707-8b44-c648fdc52897",
+      "sourceIp": "113.103.87.117",
+      "destIp": "10.0.0.15",
+      "protocol": "TCP",
+      "status": "blocked",
+      "timestamp": "2026-06-04T01:44:59.843Z",
+      "isThreat": false,
+      "signatures": [
+        "blocked_connection",
+        "unauthorized_external_access"
+      ],
+      "sourcePort": 5353,
+      "destPort": 80
+    },
+    {
+      "id": "63a6dd7a-69b3-4fb2-b813-b6e2daaddfa0",
+      "sourceIp": "10.0.0.15",
+      "destIp": "127.0.0.1",
+      "protocol": "HTTPS",
+      "status": "threat",
+      "timestamp": "2026-06-04T01:44:58.440Z",
+      "isThreat": true,
+      "signatures": [
+        "flagged_threat",
+        "threat_status",
+        "high_threat_level",
+        "unexpected_source_port:8080",
+        "unexpected_dest_port:22"
+      ],
+      "sourcePort": 8080,
+      "destPort": 22
+    },
+    {
+      "id": "052f2099-cbaa-464b-a17a-1d803938beff",
+      "sourceIp": "28.91.130.145",
+      "destIp": "192.168.1.22",
+      "protocol": "ICMP",
+      "status": "allowed",
+      "timestamp": "2026-06-04T01:44:57.750Z",
+      "isThreat": false,
+      "signatures": [
+        "unauthorized_external_access"
+      ],
+      "sourcePort": 5353,
+      "destPort": 80
+    },
+    {
+      "id": "2e6892b6-e58d-46c5-b2e2-070c5ed1ae9c",
+      "sourceIp": "168.177.39.103",
+      "destIp": "192.168.1.45",
+      "protocol": "TCP",
+      "status": "allowed",
+      "timestamp": "2026-06-04T01:44:56.337Z",
+      "isThreat": false,
+      "signatures": [
+        "unauthorized_external_access"
+      ],
+      "sourcePort": 5353,
+      "destPort": 80
+    },
+    {
+      "id": "7316b38c-3161-4599-b4d2-38bd1992d69b",
+      "sourceIp": "6.166.113.67",
+      "destIp": "10.0.0.15",
+      "protocol": "ICMP",
+      "status": "allowed",
+      "timestamp": "2026-06-04T01:44:54.949Z",
+      "isThreat": false,
+      "signatures": [
+        "unauthorized_external_access"
+      ],
+      "sourcePort": 443,
+      "destPort": 443
+    },
+    {
+      "id": "e9a7df5d-c930-41f3-84c9-d3e3525c569c",
+      "sourceIp": "222.29.57.9",
+      "destIp": "192.168.1.22",
+      "protocol": "TCP",
+      "status": "allowed",
+      "timestamp": "2026-06-04T01:44:54.248Z",
+      "isThreat": false,
+      "signatures": [
+        "unauthorized_external_access"
+      ],
+      "sourcePort": 80,
+      "destPort": 80
+    },
+    {
+      "id": "069b8b26-f982-409f-b467-ba33eb2a5591",
+      "sourceIp": "26.78.83.219",
+      "destIp": "127.0.0.1",
+      "protocol": "DNS",
+      "status": "allowed",
+      "timestamp": "2026-06-04T01:44:53.540Z",
+      "isThreat": false,
+      "signatures": [
+        "unauthorized_external_access"
+      ],
+      "sourcePort": 80,
+      "destPort": 80
+    },
+    {
+      "id": "e74666b4-0f46-4d5f-8365-2cb1587b7048",
+      "sourceIp": "35.139.76.224",
+      "destIp": "10.0.0.15",
+      "protocol": "ICMP",
+      "status": "threat",
+      "timestamp": "2026-06-04T01:44:51.437Z",
+      "isThreat": true,
+      "signatures": [
+        "flagged_threat",
+        "threat_status",
+        "high_threat_level",
+        "unexpected_source_port:8080",
+        "unexpected_dest_port:22",
+        "unauthorized_external_access"
+      ],
+      "sourcePort": 8080,
+      "destPort": 22
+    },
+    {
+      "id": "2024799a-585d-404d-a052-641a9511e776",
+      "sourceIp": "192.168.1.45",
+      "destIp": "127.0.0.1",
+      "protocol": "TCP",
+      "status": "blocked",
+      "timestamp": "2026-06-04T01:44:50.746Z",
+      "isThreat": false,
+      "signatures": [
+        "blocked_connection"
+      ],
+      "sourcePort": 80,
+      "destPort": 80
+    },
+    {
+      "id": "c1e027c4-28cf-467c-82c3-db5d27592797",
+      "sourceIp": "205.150.84.194",
+      "destIp": "172.16.0.3",
+      "protocol": "ICMP",
+      "status": "allowed",
+      "timestamp": "2026-06-04T01:44:50.048Z",
+      "isThreat": false,
+      "signatures": [
+        "unauthorized_external_access"
+      ],
+      "sourcePort": 5353,
+      "destPort": 80
+    },
+    {
+      "id": "73509754-39bb-4104-be1b-6f3ca69ed48f",
+      "sourceIp": "10.0.0.15",
+      "destIp": "127.0.0.1",
+      "protocol": "ICMP",
+      "status": "threat",
+      "timestamp": "2026-06-04T01:44:49.344Z",
+      "isThreat": true,
+      "signatures": [
+        "flagged_threat",
+        "threat_status",
+        "high_threat_level",
+        "unexpected_source_port:22",
+        "unexpected_dest_port:445"
+      ],
+      "sourcePort": 22,
+      "destPort": 445
+    },
+    {
+      "id": "a03300c9-9e13-4dc4-82c7-e6522b6d9fa3",
+      "sourceIp": "192.168.1.22",
+      "destIp": "192.168.1.45",
+      "protocol": "UDP",
+      "status": "blocked",
+      "timestamp": "2026-06-04T01:44:48.637Z",
+      "isThreat": false,
+      "signatures": [
+        "blocked_connection"
+      ],
+      "sourcePort": 80,
+      "destPort": 80
+    }
+  ],
+  "sessionThreatLogs": [],
+  "intruderAlerts": [
+    {
+      "id": "009d1acf-ad8d-46ce-8086-6da507aab7e1",
+      "message": "Threat signature: flagged_threat, threat_status, high_threat_level, unexpected_source_port:22, unexpected_dest_port:3389",
+      "sourceIp": "172.16.0.3",
+      "destIp": "10.0.0.15",
+      "signatures": [
+        "flagged_threat",
+        "threat_status",
+        "high_threat_level",
+        "unexpected_source_port:22",
+        "unexpected_dest_port:3389"
+      ],
+      "timestamp": "2026-06-04T01:45:06.846Z",
+      "dismissed": false
+    },
+    {
+      "id": "53000584-d2d2-4e7b-8877-eb3d8a3e69bc",
+      "message": "Threat signature: blocked_connection, unauthorized_external_access",
+      "sourceIp": "76.252.177.175",
+      "destIp": "127.0.0.1",
+      "signatures": [
+        "blocked_connection",
+        "unauthorized_external_access"
+      ],
+      "timestamp": "2026-06-04T01:45:06.138Z",
+      "dismissed": false
+    },
+    {
+      "id": "15045099-3008-4c1f-8f64-328fae00da05",
+      "message": "Threat signature: blocked_connection",
+      "sourceIp": "172.16.0.3",
+      "destIp": "127.0.0.1",
+      "signatures": [
+        "blocked_connection"
+      ],
+      "timestamp": "2026-06-04T01:45:04.041Z",
+      "dismissed": false
+    },
+    {
+      "id": "753036f9-2e1a-4f9e-841d-4ddb4ad79eb6",
+      "message": "Threat signature: unauthorized_external_access",
+      "sourceIp": "220.52.94.41",
+      "destIp": "127.0.0.1",
+      "signatures": [
+        "unauthorized_external_access"
+      ],
+      "timestamp": "2026-06-04T01:45:00.541Z",
+      "dismissed": false
+    },
+    {
+      "id": "46848f87-ddea-45b0-9295-a200b695b56d",
+      "message": "Threat signature: blocked_connection, unauthorized_external_access",
+      "sourceIp": "113.103.87.117",
+      "destIp": "10.0.0.15",
+      "signatures": [
+        "blocked_connection",
+        "unauthorized_external_access"
+      ],
+      "timestamp": "2026-06-04T01:44:59.843Z",
+      "dismissed": false
+    },
+    {
+      "id": "0287339e-48f0-43a9-b5ae-570a736d2dfb",
+      "message": "Threat signature: flagged_threat, threat_status, high_threat_level, unexpected_source_port:8080, unexpected_dest_port:22",
+      "sourceIp": "10.0.0.15",
+      "destIp": "127.0.0.1",
+      "signatures": [
+        "flagged_threat",
+        "threat_status",
+        "high_threat_level",
+        "unexpected_source_port:8080",
+        "unexpected_dest_port:22"
+      ],
+      "timestamp": "2026-06-04T01:44:58.440Z",
+      "dismissed": false
+    },
+    {
+      "id": "f2183a13-71cd-4741-acbc-fdbb020c246e",
+      "message": "Threat signature: unauthorized_external_access",
+      "sourceIp": "28.91.130.145",
+      "destIp": "192.168.1.22",
+      "signatures": [
+        "unauthorized_external_access"
+      ],
+      "timestamp": "2026-06-04T01:44:57.750Z",
+      "dismissed": false
+    },
+    {
+      "id": "ebda3490-2e1f-4829-b250-e71431e195d3",
+      "message": "Threat signature: unauthorized_external_access",
+      "sourceIp": "168.177.39.103",
+      "destIp": "192.168.1.45",
+      "signatures": [
+        "unauthorized_external_access"
+      ],
+      "timestamp": "2026-06-04T01:44:56.337Z",
+      "dismissed": false
+    }
+  ]
+}
