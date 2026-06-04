@@ -4,6 +4,8 @@
 
 NetWatch Sentinel provides enterprise-grade situational awareness through dynamic, force-directed telemetry. Built for high-stakes cybersecurity and infrastructure monitoring.
 
+![NetWatch Sentinel Dashboard](assets/netwatch-map-snapshot-2026-06-04T01-45-07-967Z.png)
+
 ---
 
 ## 🚀 Features
@@ -28,6 +30,22 @@ NetWatch Sentinel provides enterprise-grade situational awareness through dynami
 
 ---
 
+🛠️ Tech Stack
+React 18 · TypeScript · Vite · Tailwind CSS · react-force-graph-2d
+
+---
+
+⚡ Quick Start
+Bash
+# Install dependencies
+npm install
+
+# Launch the sentinel
+npm run dev
+
+Built with security and performance in mind.
+---
+
 ## 🐍 Python API Integration
 Easily connect NetWatch Sentinel to any backend telemetry stream. Implement the `NetworkDataSource` interface and pass it to your hook:
 
@@ -36,15 +54,3 @@ Easily connect NetWatch Sentinel to any backend telemetry stream. Implement the 
 const feed = useNetworkData({ 
   dataSource: myPythonApiSource 
 });
-
-##🛠️ Tech Stack
-React 18 · TypeScript · Vite · Tailwind CSS · react-force-graph-2d
-
-##⚡ Quick Start
-Bash
-# Install dependencies
-npm install
-
-# Launch the sentinel
-npm run dev
-Built with security and performance in mind.
